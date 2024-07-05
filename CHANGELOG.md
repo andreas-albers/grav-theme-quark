@@ -1,14 +1,19 @@
+# v3.0.0
+## 05/07/2024
+1. [](#improved)
+    * Updated Spectre.css to version 0.6.0 (fork by [niutech](https://github.com/niutech/spectre))
+
 # v2.0.5
 ## 09/11/2023
 
 1. [](#improved)
-   * Added `login-status.html.twig` if available
+    * Added `login-status.html.twig` if available
 
 # v2.0.4
 ## 09/29/2021
 
 1. [](#new)
-   * Added simple gallery modular page for `lightbox-gallery` plugin
+    * Added simple gallery modular page for `lightbox-gallery` plugin
 2. [](#bugfix)
     * Fixed `radio` form field error when admin isn't installed
     * Translate `grid size` text

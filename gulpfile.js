@@ -1,10 +1,10 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var cleancss = require('gulp-clean-css');
-var csscomb = require('gulp-csscomb');
-var rename = require('gulp-rename');
-var autoprefixer = require('gulp-autoprefixer');
-var sourcemaps = require('gulp-sourcemaps');
+const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+const cleancss = require('gulp-clean-css');
+const csscomb = require('gulp-csscomb');
+const rename = require('gulp-rename');
+const autoprefixer = require('gulp-autoprefixer');
+// const sourcemaps = require('gulp-sourcemaps');
 
 // configure the paths
 var watch_dir = './scss/**/*.scss';
@@ -20,17 +20,16 @@ function watch() {
 }
 
 function build() {
-  return gulp.src(paths.source)
-      .pipe(sourcemaps.init())
-      .pipe(sass({
-            outputStyle: 'compact',
-            precision: 10
-          }).on('error', sass.logError)
+  return gulp
+      .src(paths.source)
+      // .pipe(sourcemaps.init())
+      .pipe(sass({outputStyle: 'expanded'})
+        .on('error', sass.logError)
       )
-      .pipe(sourcemaps.write())
+      // .pipe(sourcemaps.write())
       .pipe(autoprefixer())
-      .pipe(gulp.dest(dest_dir))
       .pipe(csscomb())
+      .pipe(gulp.dest(dest_dir))
       .pipe(cleancss())
       .pipe(rename({
         suffix: '.min'
