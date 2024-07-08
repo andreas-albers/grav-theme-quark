@@ -8,6 +8,9 @@ $border-color: lighten($dark-color, 60%) !default;
 $bg-color: lighten($dark-color, 66%) !default;
 $body-font-color: lighten($dark-color, 5%) !default;
 
+// FontAwesome font path
+$fa-font-path: '../fonts';
+
 // Layout
 $horiz-padding: 1rem;
 $vert-padding: 2rem 0 2rem;

@@ -1,0 +1,13 @@
+// variables
+@import './theme/variables';
+
+// importing core styling file
+@import './fontawesome/fontawesome.scss';
+
+// import styles
+@import './fontawesome/regular.scss';
+@import './fontawesome/solid.scss';
+@import './fontawesome/brands.scss';
+
+// import v4-shims
+@import './fontawesome/v4-shims.scss'
