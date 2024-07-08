@@ -1,7 +1,8 @@
 # v3.0.0
 ## 05/07/2024
 1. [](#improved)
-    * Updated Spectre.css to version 0.6.0 (fork by [niutech](https://github.com/niutech/spectre))
+    * Updated Spectre.css to version 0.6.0 (Spectre.css fork by [niutech](https://github.com/niutech/spectre))
+    * Removed bricklayer.js from blog template and replaced it with Spectre.css columns
 
 # v2.0.5
 ## 09/11/2023

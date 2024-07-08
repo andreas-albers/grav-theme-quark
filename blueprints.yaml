@@ -1,17 +1,17 @@
 name: Quark
 slug: quark
 type: theme
-version: 2.0.4
+version: 3.0.0
 description: New Grav Default Theme
 icon: microchip
 author:
-  name: Team Grav
-  email: devs@getgrav.org
-  url: https://getgrav.org
-homepage: https://github.com/getgrav/grav-theme-quark
-demo: https://demo.getgrav.org/onepage-skeleton
+  name: Andreas Albers
+  email: #
+  url: #
+homepage: https://github.com/andreas-albers/grav-theme-quark
+demo: #
 keywords: quark, spectre, theme, core, modern, fast, responsive, html5, css3
-bugs: https://github.com/getgrav/grav-theme-quark/issues
+bugs: https://github.com/andreas-albers/grav-theme-quark/issues
 license: MIT
 
 dependencies:
