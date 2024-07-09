@@ -3,7 +3,7 @@
 1. [](#improved)
     * Updated Spectre.css to version 0.6.0 (Spectre.css fork by [niutech](https://github.com/niutech/spectre))
     * Removed bricklayer.js from blog template and replaced it with Spectre.css columns
-    * Updated FontAwsome to version 6.5.2 (including FontAwsome v4-shims for backwards compability)
+    * Updated FontAwesome to version 6.5.2 (including FontAwesome v4-shims for backwards compability)
 
 # v2.0.5
 ## 09/11/2023
