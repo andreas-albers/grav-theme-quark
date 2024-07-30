@@ -60,7 +60,7 @@ section.section {
   min-height: 8rem;
 }
 .header-fixed .hero {
-  background-position: 50% 0;
+  background-position: 50% 50%;
 }
 @media (max-width: 840px) {
   .hero h1 {
@@ -140,21 +140,6 @@ h6 {
   color: #3a414e;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   margin-top: 2rem;
-}
-
-h1,
-.h1 {
-  font-size: 3rem;
-}
-
-h2,
-.h2 {
-  font-size: 1.8rem;
-}
-
-h6,
-.h6 {
-  font-weight: 400;
 }
 
 .title-center h1,
@@ -491,31 +476,37 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before {
   margin: 1rem;
 }
 .treemenu li {
-  background: rgba(102, 113, 137, .1);
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   list-style: none;
-  margin: 0 0 1px;
-  padding: 5px 0;
+  margin: 0;
+  padding: 12px 0;
 }
 .treemenu li a {
+  color: #fff;
   display: block;
-  font-size: 1rem;
-  margin-left: 1.2rem;
+  font-size: 1.4rem;
+  margin-left: 1.7rem;
 }
-.treemenu li a:hover,
-.treemenu li a:focus,
 .treemenu li a.active {
   color: #3e8def !important;
   text-decoration: none;
 }
+.treemenu li a:hover,
+.treemenu li a:focus,
+.treemenu li a:active {
+  color: #fff !important;
+  text-decoration: none;
+}
 .treemenu ul {
   margin: 0 0 0 1rem;
+  padding: 12px 0 0 0;
 }
 .treemenu .toggler {
+  color: #fff;
   cursor: pointer;
   float: left;
-  font-size: 1.1rem;
-  line-height: 1rem;
+  font-size: 1.7rem;
+  line-height: 1.3rem;
   padding-left: 5px;
   vertical-align: top;
 }
@@ -525,10 +516,10 @@ form .form-group:not(.form-field-toggleable) .checkboxes label:before {
 }
 .treemenu li.tree-empty > .toggler {
   cursor: default;
-  opacity: .3;
+  opacity: .4;
 }
 .treemenu li.tree-empty > .toggler:before {
-  content: "•";
+  content: "•" !important;
 }
 .treemenu li.tree-closed > .toggler:before {
   content: "+";
@@ -706,11 +697,12 @@ body.sticky-footer #page-wrapper {
 }
 .dropmenu ul li a:before {
   content: "\f107";
-  display: inline-block;
   float: right;
-  font-family: "FontAwesome";
+  font: var(--fa-font-solid);
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
   margin-right: -20px;
-  vertical-align: middle;
+  text-rendering: auto;
 }
 .dropmenu ul li a:only-child {
   padding-right: 20px;

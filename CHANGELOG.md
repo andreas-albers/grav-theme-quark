@@ -1,9 +1,20 @@
+# v3.1.0
+## 05/07/2024
+1. [](#improved)
+    * Vertically centered hero image
+    * Added lazy loading to hero image
+    * Revised sizing of the mobile menu (old mobile menu was too small and cramped)
+    * Revised sizing of headings (old headings were too large)
+
+2. [](#bugfix)
+    * Fixed "arrow down symbol" in menu, which was broken after FontAwesome version 6 update
+
 # v3.0.0
 ## 05/07/2024
 1. [](#improved)
     * Updated Spectre.css to version 0.6.0 (Spectre.css fork by [niutech](https://github.com/niutech/spectre))
     * Removed bricklayer.js from blog template and replaced it with Spectre.css columns
-    * Updated FontAwesome to version 6.5.2 (including FontAwesome v4-shims for backwards compability)
+    * Updated FontAwesome to version 6.5.2 (including FontAwesome v4-shims for backwards compatibility)
 
 # v2.0.5
 ## 09/11/2023
