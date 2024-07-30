@@ -10,10 +10,10 @@ function scrollHeader() {
 }
 
 function parallaxBackground() {
-    $('.parallax').css('background-positionY', ($(window).scrollTop() * 0.3) + 'px');
+    $('.parallax').css('background-position', '50% calc(50% + ' + ($(window).scrollTop() * 0.3) + 'px)'); // centered hero image position
 }
 
-jQuery(document).ready(function($){
+$(document).ready(function($){
 
     scrollHeader();
 
@@ -54,6 +54,15 @@ jQuery(document).ready(function($){
     });
 
     // Tree Menu
-    $(".tree").treemenu({delay:300});
+    $(".tree").treemenu({delay:300, closeOther:true, openActive: true});
 
+});
+
+// lazy loading of hero background-image
+$(window).on("load", function() {
+    $('.lazyload').each(function() {
+        var lazy = $(this);
+        var src = lazy.attr('data-bgimage');
+        lazy.css('background-image', 'url("'+src+'")');    
+    });
 });

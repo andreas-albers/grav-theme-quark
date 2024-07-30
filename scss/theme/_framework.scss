@@ -71,7 +71,7 @@ section.section {
   }
   
   .header-fixed & {
-    background-position: 50% 0;
+    background-position: 50% 50%; // centered hero image; old hero image position: background-position: 50% 0;
   }
 
   //&.parallax {
