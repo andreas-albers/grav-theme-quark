@@ -23,12 +23,13 @@
         }
 
         &:before {
+          text-rendering: auto;
+          -webkit-font-smoothing: antialiased;
           content: '\f107';
-          font-family: 'FontAwesome';
-          display: inline-block;
-          vertical-align: middle;
+          font: var(--fa-font-solid);
           float: right;
           margin-right: - (2 *$dropmenu-child-padding);
+          line-height: 1.5;
         }
 
         &:only-child {
