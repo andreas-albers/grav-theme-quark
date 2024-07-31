@@ -38,14 +38,13 @@
 
 /** Blog Listing **/
 .blog-listing {
-
-  .bricklayer-column {
-    padding-left: 0px;
-    padding-right: 25px;
-
+  
+  .column {
+    padding-bottom: .8rem;
   }
   .card {
-    margin-bottom: 25px;
+    height: 100%;
+    margin-bottom: 0;
     border: 0;
     box-shadow: 0 10px 45px -9px rgba(0,0,0,0.1);
   }

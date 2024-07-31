@@ -785,14 +785,14 @@ body.sticky-footer #page-wrapper {
 }
 
 /** Blog Listing **/
-.blog-listing .bricklayer-column {
-  padding-left: 0;
-  padding-right: 25px;
+.blog-listing .column {
+  padding-bottom: .8rem;
 }
 .blog-listing .card {
   border: 0;
   box-shadow: 0 10px 45px -9px rgba(0, 0, 0, .1);
-  margin-bottom: 25px;
+  height: 100%;
+  margin-bottom: 0;
 }
 .blog-listing .card-footer {
   text-align: right;

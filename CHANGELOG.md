@@ -1,5 +1,10 @@
 # v3.1.0
 ## 05/07/2024
+1. [](#bugfix)
+    * Fixed blog-listing class from blog template
+
+# v3.1.0
+## 05/07/2024
 1. [](#improved)
     * Vertically centered hero image
     * Added lazy loading to hero image
