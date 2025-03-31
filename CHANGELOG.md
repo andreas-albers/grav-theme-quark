@@ -1,3 +1,23 @@
+# v3.2.0
+## 31/03/2025
+**adopted changes from [original repo](https://github.com/getgrav/grav-theme-quark):**  
+1. [](new)
+    * Added modular template
+    * Added multilingual support for the theme options in the admin panel. Initial translations include English and Spanish. 
+    * Added a new toggle option in the admin panel for modular pages to enable or disable the `onepage_menu` functionality directly from the page settings.
+    * Added Estonian translation
+    * Added Japanese translation
+    * Added Polish translation
+
+2. [](#improved)
+    * Updated `partials/taxonomylist.html.twig` to support latest updates in that plugin
+    * Added `'children_only': true` to `partials/sidebar.html.twig` template
+    * Fixed label-primary class in `partials/relatedpages.html.twig` template
+    * Applied taxonomy value date format setting in `partials/rchives.html.twig` template
+
+3. [](#bugfix)
+    * Removed double `login-status.html.twig` reference, and added `ignore missing` on include in `base.html.twig`
+
 # v3.1.0
 ## 05/07/2024
 1. [](#bugfix)
