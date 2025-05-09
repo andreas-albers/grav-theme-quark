@@ -51,7 +51,7 @@
     * Updated FontAwesome to version 6.5.2 (including FontAwesome v4-shims for backwards compatibility)
 
 # v2.0.5
-## 09/11/2023
+## 03/05/2025
 
 1. [](#improved)
     * Added `login-status.html.twig` if available
