@@ -1,3 +1,12 @@
+# Development
+## ToDo:
+* reintroduce bricklayer.js and use spectre.css columns only as noscript fallback
+* update spectre.css from https://github.com/spectre-org/spectre-css
+* update FontAwsome
+
+## Done:
+* --
+
 # v3.2.0
 ## 31/03/2025
 **adopted changes from [original repo](https://github.com/getgrav/grav-theme-quark):**  
